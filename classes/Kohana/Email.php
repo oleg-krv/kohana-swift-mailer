@@ -14,6 +14,7 @@
 class Kohana_Email {
 
 	// SwiftMailer instance
+	/** @var Swift_Mailer */
 	protected static $mail;
 
 	/**
